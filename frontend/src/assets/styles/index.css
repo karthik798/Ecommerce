@@ -1,10 +1,37 @@
 
 main {
-  min-height: 80vh;
+  min-height: 50vh;
 }
 
 .navi {
-  background-color: #f4f4f4;
+  background-color: #3c4c5d;
+  height: 85px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.brand-text {
+  color: #ffd700; /* Choose a contrasting color (this is a reddish color) */
+}
+
+#men-dropdown {
+  margin-left: 30px;
+  margin-right: 35px; /* Adjust the margin as needed */
+}
+
+.navi .nav-item .nav-link {
+  color:#ffffff ;
+}
+
+/* Add these styles for navbar links */
+.navi a {
+  text-decoration: none;
+  padding: 15px;
+  transition: color 0.3s;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navi a:hover {
+  color: #ffd700;
 }
 
 .rating span {

@@ -8,6 +8,7 @@ const HomeScreen = () => {
   const mensCollection = products.filter((product) => product.gender === 'menproduct');
   const womensCollection = products.filter((product) => product.gender === 'womenproduct');
 
+ 
   return (
     <>
       <h1>Men's Collection</h1>
@@ -22,7 +23,7 @@ const HomeScreen = () => {
       <h1>Women's Collection</h1>
       <Row>
         {womensCollection.map((product) => (
-          <Col key={product._id} sm={12} md={3} lg={3} xl={3}>
+          <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
             <ProductDes product={product} />
           </Col>
         ))}

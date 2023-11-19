@@ -1,8 +1,9 @@
 import React from 'react';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import { FaShoppingCart, FaUser } from 'react-icons/fa';
+import { FaShoppingCart, FaUser} from 'react-icons/fa';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useLocation } from 'react-router-dom';
+import { PiGlobeStand } from "react-icons/pi";
 import '../assets/styles/index.css';
 
 const Header = ({ userInfo, logoutHandler }) => {
@@ -11,10 +12,13 @@ const Header = ({ userInfo, logoutHandler }) => {
 
   return (
     <header>
-      <Navbar className="navi" expand="lg" collapseOnSelect sticky="top">
+      <Navbar className="navi" expand="lg" collapseOnSelect sticky='top'>
         <Container fluid id="navcontainer">
           <LinkContainer to="/">
-            <Navbar.Brand href='/'>StyleSphere</Navbar.Brand>
+          <Navbar.Brand>
+          <PiGlobeStand style={{ color: '#ffd700' }} />
+          <span className="brand-text">STYLESPHERE</span>
+          </Navbar.Brand>  
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
