@@ -1,13 +1,23 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import products from '../Products';
 import ProductDes from '../components/ProductDes';
+import { useEffect,useState } from 'react';
+import axios from 'axios';
 
 const HomeScreen = () => {
+  const [products,setProducts] = useState([])
   // Separate products into men's and women's collections
   const mensCollection = products.filter((product) => product.gender === 'menproduct');
   const womensCollection = products.filter((product) => product.gender === 'womenproduct');
 
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const {data} = await axios.get('/api/products');
+      setProducts(data);
+  };
+  
+  fetchProducts();
+},[]);
  
   return (
     <>

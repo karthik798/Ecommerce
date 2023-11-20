@@ -1,9 +1,12 @@
 import express from 'express';
 import dotenv from 'dotenv';
 dotenv.config()
+import connectDB from './config/db.js';
 import products from './data/Products.js';
 
 const port = process.env.port || 5000 ;
+
+connectDB();
 
 const app = express();
 
@@ -20,4 +23,4 @@ app.get('/api/products/:id', (req,res) => {
     res.json(product);
 });
 
-app.listen(port,() => console.log(` Server is running on port ${port}`));
+app.listen(port,() => console.log(`Server is running on port ${port}`));
