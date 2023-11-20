@@ -39,11 +39,11 @@ const productSchema = new mongoose.Schema({
     type : String,
     required : true,
 },
-    Category : {
+    category : {
     type : String,
     required : true,
 },
-    Description : {
+    description : {
     type : String,
     required : true,
 },
@@ -63,7 +63,7 @@ const productSchema = new mongoose.Schema({
     required : true,
     default: 0,
 },
-    CountInStock : {
+    countInStock : {
     type : Number,
     required : true,
     default: 0,

@@ -1,7 +1,7 @@
 const products = [
   /* T-shirts */
   {
-    _id: '1',
+  
     name: 'Men Polo Collar T-shirt',
     image: '/mens-latest/1.jpg',
     description:
@@ -15,7 +15,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
+    
     name: 'The Graphic Slim Fit T-Shirt in Tortoise Brown',
     image: '/mens-latest/1_1.jpg',
     description:
@@ -29,7 +29,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '3',
+    
     name: 'The Colour Block Motion T-Shirt in Deep Blue',
     image: '/mens-latest/1_2.jpg',
     description:
@@ -43,7 +43,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
+    
     name: 'The Slim Fit Essential T-Shirt in Dark Blue',
     image: '/mens-latest/1_3.jpg',
     description:
@@ -57,7 +57,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
+    
     name: 'The Slim Fit Henley T-Shirt in Vintage Grey',
     image: '/mens-latest/1_4.jpg',
     description:
@@ -73,7 +73,7 @@ const products = [
 
   /* Shirts */
   {
-    _id: '6',
+    
     name: 'Men Solid Casual Shirt',
     image: '/mens-latest/2.jpg',
     description:
@@ -89,7 +89,7 @@ const products = [
 
   /* Jackets */
   {
-    _id: '7',
+
     name: 'Men Black Solid Sporty Jacket',
     image: '/mens-latest/3.jpg',
     description:
@@ -105,7 +105,7 @@ const products = [
 
   /* Suits */
   {
-    _id: '8',
+
     name: 'Burgundy Self-Design Slim Fit Formal Suit',
     image: '/mens-latest/5.jpg',
     description:
@@ -121,7 +121,7 @@ const products = [
 
   /* Shorts */
   {
-    _id: '9',
+  
     name: 'Men Black Solid Sports RAPID-DRY Shorts',
     image: '/mens-latest/4.jpg',
     description:
@@ -137,7 +137,7 @@ const products = [
 
   /* Jeans */
   {
-    _id: '10',
+
     name: 'Black Skinny Fit Jeans',
     image: '/mens-latest/6.jpg',
     description:
@@ -153,7 +153,7 @@ const products = [
   
   /* Women's Product */
     {
-      _id: '11',
+    
       name: 'Women Black Solid High Neck Cropped Top',
       image: '/womens-latest/1.jpg',
       description: 'Black solid knitted crop top, has a high neck, and long sleeves',
@@ -166,7 +166,7 @@ const products = [
       numReviews: 12,
     },
     {
-      _id: '12',
+  
       name: 'Pink Ethnic Motifs Embroidered Mirror Work Kurti',
       image: '/womens-latest/2.jpg',
       description:
@@ -180,7 +180,7 @@ const products = [
       numReviews: 8,
     },
     {
-      _id: '13',
+
       name: 'Women Black Solid Fringed Hem Denim Jacket',
       image: '/womens-latest/3.jpg',
       description:
@@ -194,7 +194,7 @@ const products = [
       numReviews: 12,
     },
     {
-      _id: '14',
+
       name: 'Women Black High-Rise Stretchable Jeans',
       image: '/womens-latest/5.jpg',
       description:
@@ -208,7 +208,6 @@ const products = [
       numReviews: 12,
     },
     {
-      _id: '15',
       name: 'Men Black Solid Sports RAPID-DRY Shorts',
       image: '/womens-latest/4.jpg',
       description:
@@ -222,7 +221,6 @@ const products = [
       numReviews: 10,
     },
     {
-      _id: '16',
       name: 'Dusty Pink Lehenga Set',
       image: '/womens-latest/6.jpg',
       description:
